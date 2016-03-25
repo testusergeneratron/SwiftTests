@@ -3,6 +3,7 @@
 # Github example provided, should work with other repos e.g. Bitbucket
 git:
  - bundleName : "Kitura(.)*"
+<<<<<<< HEAD
    gitUrl : "git@github.com:testusergeneratron/SwiftTests.git"
    subdir : "KituraBackend"
    branch : "Generatron"
@@ -12,5 +13,16 @@ git:
    branch : "Generatron"
  - bundleName : "ionic(.)*"
    gitUrl : "git@github.com:testusergeneratron/SwiftTests.git"
+=======
+   gitUrl : "git@github.com:<your github user here>/MyProject.git"
+   subdir : "KituraBackend"
+   branch : "Generatron"
+ - bundleName : "Perfect(.)*"
+   gitUrl : "git@github.com:generatron/MyProject.git"
+   subdir : "PerfectBackend"
+   branch : "Generatron"
+ - bundleName : "ionic(.)*"
+   gitUrl : "git@github.com:generatron/MyProject.git"
+>>>>>>> 2192edc0f883b36734e37454ec9b5311b2595baf
    subdir : "IonicFrontend"
    branch : "Generatron"
